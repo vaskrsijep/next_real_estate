@@ -27,11 +27,9 @@ const Ongoing = () => {
         <motion.p className="text-muted-foreground text-xl" whileInView={{ y: 0 }} initial={{ y: -100 }}
       transition={{ duration: 1 }}>Projects ongoing in our real estate industry.</motion.p>
         </div>
-        <div className="flex items-center gap-5">
-        <motion.div className="swiper-button-prev" whileInView={{ x: 0 }} initial={{ x: 100 }}
-      transition={{ duration: 1 }}><ArrowLeftCircle size={30} /></motion.div>
-        <motion.div className="swiper-button-next" whileInView={{ x: 0 }} initial={{ x: 100 }}
-      transition={{ duration: 1 }}><ArrowRightCircle size={30} /></motion.div>
+        <div className="flex items-center gap-5 justify-start">
+        <motion.div className="swiper-button-prev" ><ArrowLeftCircle size={30} /></motion.div>
+        <motion.div className="swiper-button-next" ><ArrowRightCircle size={30} /></motion.div>
         </div>
         </motion.div>
       <div className="w-full">
@@ -57,70 +55,75 @@ const Ongoing = () => {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <div className="flex flex-col items-center justify-center max-w-[350px] relative">
-        <Image src="/images/ongoingpr1.png" alt="ongoing" objectFit="cover" width={700} height={300} className="rounded"/>
+      <SwiperSlide className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <div className="flex flex-col items-center justify-center w-full sm:max-w-[350px] relative">
+        <Image src="/images/ongoingpr1.png" alt="ongoing" width={700} height={300} className="rounded"/>
         <div className="flex flex-col items-center gap-3 justify-center bg-white absolute bottom-5 left-1/2 translate-x-[-50%] p-2 rounded-md shadow-md w-[300px]">
             <p className="text-2xl font-semibold">Vintage Villa</p>
             <p className="text-muted-foreground flex items-center gap-2"><MapPin size={20}/>Dubai, United Arab Emirates</p>
         </div>
         </div>
       </SwiperSlide>
-      
+      {/* <div className="flex items-center gap-10 md:hidden justify-center py-10">
+        <motion.div className="swiper-button-prevv" whileInView={{ x: 0 }} initial={{ x: 100 }}
+      transition={{ duration: 1 }}><ArrowLeftCircle size={30} /></motion.div>
+        <motion.div className="swiper-button-nextt" whileInView={{ x: 0 }} initial={{ x: 100 }}
+      transition={{ duration: 1 }}><ArrowRightCircle size={30} /></motion.div>
+        </div> */}
     </Swiper>
         </div>
       </div>
