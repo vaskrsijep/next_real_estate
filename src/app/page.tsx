@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import About from "@/components/Sections/About";
+import Ongoing from "@/components/Sections/Ongoing";
 
 export default function Home() {
   return (
@@ -13,13 +14,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto z-50">
           <Navbar />
           <Heading />
-          {/* <Project/> */}
-          {/* <Contact/> */}
         </div>
-
       </header>
       <div className="max-w-7xl mx-auto z-50">
       <About/>
+      <Ongoing/>
       </div>
     </>
   );
