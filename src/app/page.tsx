@@ -6,6 +6,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import About from "@/components/Sections/About";
 import Ongoing from "@/components/Sections/Ongoing";
+import Testimonials from "@/components/Sections/Testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto z-50">
       <About/>
       <Ongoing/>
+      <Testimonials/>
       </div>
     </>
   );
