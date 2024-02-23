@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+li {
+  list-style-type: none;
+}
+li:hover {
+  cursor: pointer;
+  color: #F9FAFB;
+}
 
 @layer base {
   :root {

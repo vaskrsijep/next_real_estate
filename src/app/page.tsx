@@ -1,5 +1,5 @@
 "use client"
-import Heading from "@/components/Sections/Heading";
+import Heading from "@/components/Sections/Hero";
 import Navbar from "@/components/Sections/Navbar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -8,6 +8,7 @@ import About from "@/components/Sections/About";
 import Ongoing from "@/components/Sections/Ongoing";
 import Testimonials from "@/components/Sections/Testimonials";
 import Contact from "@/components/Sections/Contact";
+import Footer from "@/components/Sections/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       <Ongoing/>
       <Testimonials/>
       <Contact/>
+      </div>
+      <div className="px-5 md:px-0 overflow-hidden">
+        <Footer/>
       </div>
     </>
   );

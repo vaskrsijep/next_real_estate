@@ -27,10 +27,10 @@ const Heading = () => {
           animate={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -1000 }}
           transition={{ duration: 0.5 }}
-          className="py-5"
+          className="py-5 flex gap-5"
         >
-          <Button variant="default">Our Projects</Button>
-          <Button variant="link">Contact Us</Button>
+          <Button variant="default" size={"lg"}>Our Projects</Button>
+          <Button variant="outline" size={"lg"}>Contact Us</Button>
         </motion.div>
       </motion.div>
       <div>
