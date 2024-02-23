@@ -14,18 +14,18 @@ export default function Home() {
   return (
       <>
       <header className="bg-[#AFD4E2] relative overflow-hidden z-0">
-        <div className="max-w-7xl mx-auto z-50 px-5 md:px-0">
+        <div className="max-w-7xl mx-auto z-50 px-5 lg:px-0">
           <Navbar />
           <Heading />
         </div>
       </header>
-      <div className="max-w-7xl mx-auto z-50 px-5 md:px-0 overflow-hidden">
+      <div className="max-w-7xl mx-auto z-50 px-5 lg:px-0 overflow-hidden">
       <About/>
       <Ongoing/>
       <Testimonials/>
       <Contact/>
       </div>
-      <div className="px-5 md:px-0 overflow-hidden">
+      <div className="px-5 lg:px-0 overflow-hidden">
         <Footer/>
       </div>
     </>
