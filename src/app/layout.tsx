@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} font-sans`}>
       <body
-      className={`${fontSans.variable} font-sans min-h-screen bg-background antialiased`}
+      className=' min-h-screen bg-background antialiased'
         // className={cn(
         //   "min-h-screen bg-background antialiased",
         //   fontSans.variable
