@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
 import localFont from "@next/font/local";
 
 const poppins = localFont({
@@ -14,10 +12,6 @@ const poppins = localFont({
   variable: '--font-poppins'
 })
 
-export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
 
 export const metadata: Metadata = {
   title: "Lugar real estate",
@@ -33,10 +27,6 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.variable} font-sans`}>
       <body
       className=' min-h-screen bg-background antialiased'
-        // className={cn(
-        //   "min-h-screen bg-background antialiased",
-        //   fontSans.variable
-        // )}
       >
         {children}
       </body>
