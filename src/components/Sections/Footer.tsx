@@ -5,9 +5,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#1E3240] text-white pb-10 pt-5">
-      <div className="flex sm:flex-row flex-col items-center justify-between sm:gap-0 gap-10 sm:px-5 md:px-0 sm:max-w-7xl mx-auto sm:py-10">
-        <div className="sm:w-1/2 flex items-start justify-between">
-          <div className="flex flex-col items-start gap-5 w-1/2">
+      <div className="flex sm:flex-row flex-col items-center justify-between sm:gap-0 sm:px-5 md:px-0 sm:max-w-7xl mx-auto sm:py-10">
+        <div className="sm:w-1/2 p-10 flex items-start justify-between gap-5">
+          <div className="flex flex-col items-start gap-5 sm:w-1/2">
             <h5 className="text-xl font-bold">Lugar</h5>
             <ul className="text-md text-muted-foreground flex items-start flex-col gap-3">
               <li className="flex items-center justify-center flex-row gap-2"><MapPin/> 2118 Thornridge Cir. Dubai, UAE 35624</li>
