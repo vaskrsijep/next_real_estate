@@ -9,6 +9,7 @@ import Ongoing from "@/components/Sections/Ongoing";
 import Testimonials from "@/components/Sections/Testimonials";
 import Contact from "@/components/Sections/Contact";
 import Footer from "@/components/Sections/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <div className="sm:px-5 lg:px-0 overflow-hidden">
         <Footer/>
       </div>
+      <Analytics/>
     </>
   );
 }
