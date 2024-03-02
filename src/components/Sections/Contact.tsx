@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 import { motion, useScroll  } from "framer-motion";
 const Contact = () => {
   return (
-    <div className="sm:py-20 py-10 bg-gray-50 rounded-xl p-10 shadow-lg my-20 mx-1">
+    <div className="sm:py-10 py-0 bg-gray-50 rounded-xl p-10 shadow-lg my-20 mx-1">
       <div className="flex flex-row items-center justify-between">
         <motion.div className="w-1/2 md:flex hidden" whileInView={{ y: 0 }} initial={{ y: 500 }}
       transition={{ duration: 2 }}>
