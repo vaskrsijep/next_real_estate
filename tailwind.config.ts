@@ -21,7 +21,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-test)", ...fontFamily.sans],
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+
       },
       colors: {
         primary1: "hsl(var(--primary1))",
